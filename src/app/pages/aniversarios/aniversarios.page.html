@@ -1,0 +1,54 @@
+<ion-content class="fundo-tela">
+  <p class="paragrafo-descricao">Veja os cooperados que comemoram aniversário. Selecione uma data ou pesquise pelo nome
+  </p>
+
+  <!-- CARD DATA -->
+  <ion-card class="cartao">
+    <ion-toolbar>
+      <ion-button slot="start" class="calendario">
+        <fa-icon icon="calendar" class="icone-calendario"></fa-icon>
+      </ion-button>
+      <ion-title class="paragrafo-calendario">OUTUBRO - 2017</ion-title>
+      <ion-button slot="end" class="calendario">
+        <fa-icon icon="caret-right" class="icone-calendario"></fa-icon>
+      </ion-button>
+    </ion-toolbar>
+  </ion-card>
+
+  <!-- CARD DATA -->
+  <ion-card class="cartao">
+    <ion-input placeholder="Nome do aniversariante" class="input-nome-aniversariante"></ion-input>
+  </ion-card>
+
+  <!-- ANIVERSARIANTES DO DIA -->
+  <ion-card class="cartao">
+
+    <!--TÍTULO -->
+    <ion-toolbar class="titulo-aniversariantes">
+      <ion-button slot="start" class="titulo-cartao">
+        <ion-card-title class="titulo-cartao">ANIVERSARIANTES DO DIA
+        </ion-card-title>
+      </ion-button>
+      <div slot="end" class="data-div ion-text-center">
+        <ion-card-subtitle class="data-extenso-numero">30
+        </ion-card-subtitle>
+        <ion-card-subtitle class="data-extenso-mes">out
+        </ion-card-subtitle>
+      </div>
+    </ion-toolbar>
+
+
+
+    <!--LISTA DE ANIVERSARIANTES -->
+    <ion-list>
+      <p class="aniversariante">José da Silva Teixeira</p>
+      <p class="aniversariante">Luiz Carlos Garcia</p>
+      <p class="aniversariante">Maria Aparecida Vieira Couto</p>
+      <p class="aniversariante">Roberto Almeida Spoletti</p>
+      <p class="aniversariante">Ana Maria Cerqueira</p>
+      <p class="aniversariante">Pedro Arthur Nogueira Rispini</p>
+      <p class="aniversariante">Francine Fonseca Pedrini</p>
+    </ion-list>
+
+  </ion-card>
+</ion-content>

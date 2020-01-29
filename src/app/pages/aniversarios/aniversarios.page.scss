@@ -1,0 +1,100 @@
+ion-content {
+  --background: #f2f2f2;
+}
+
+
+.paragrafo-descricao {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #5b5c65;
+  }
+
+  
+.cartao {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+
+
+//CARD DATA
+.calendario {
+    --background: white;
+    --box-shadow: none;
+  }
+
+  .icone-calendario {
+    color: #00995d;
+    font-size: 25px;
+  }
+  
+.paragrafo-calendario {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  font-size: 13px;
+  padding-left: 0PX;
+  color: #00995d;
+}
+  
+
+//INPUT
+.input-nome-aniversariante {
+  border-color: #cfd3d6 !important;
+
+  border-radius: 10px !important;
+  background-color: white;
+  font-size: 12px;
+  color: #5b5c65;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+
+//ANIVERSARIANTES DO DIA
+.titulo-aniversariantes {
+  border-bottom: 1px solid #f2f2f2;
+  padding-right: 15px;
+}
+.titulo-cartao {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5b5c65;
+  --background: white;
+  --box-shadow: none;
+  padding: 0;
+}
+.data-extenso-numero {
+  font-family: Roboto Light, sans-serif;
+  font-weight: 100;
+  font-size: 27px;
+  color: #5b5c65;
+  padding: 0px;
+}
+.data-extenso-mes {
+  font-family: Roboto Light, sans-serif;
+  font-size: 14px;
+  color: #00995d;
+}
+
+//LISTA ANIVERSARIANTES
+.aniversariante {
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Roboto Light, sans-serif;
+  font-size: 15px;
+  color: #1e1e1e;
+}
+
+.data-div {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}

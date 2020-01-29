@@ -1,0 +1,49 @@
+ion-toolbar {
+  --background: #00995d;
+  --color: white;
+  height: 60px;
+}
+
+
+//BOTAO VOLTAR
+.voltar {
+  --background: #00995d;
+  --box-shadow: none;
+}
+
+.icone-voltar {
+  font-size: 25px;
+}
+
+
+.titulo {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+//BARRA DE SELEÇÃO ANTRE ANIVERSÁRIOS E UNIMED
+.barra {
+  --background: #006b3e;
+  height: 48px;
+}
+
+.botao-menu {
+  --color: #00BB6C;
+  --color-selected: white;
+  --background-checked:#006b3e;
+  --color-checked:white;
+  --indicator-color: #BED700;
+  border-bottom:10px;
+  width: 50%;
+}
+
+.segment-button-checked{
+    border-bottom: 3px solid;
+    border-color: #BED700;
+}
+
+.titulo-botao-menu{
+    font-size: 11px;
+}
