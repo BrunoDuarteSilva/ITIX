@@ -9,6 +9,7 @@ ion-toolbar {
 .voltar {
   --background: #00995d;
   --box-shadow: none;
+  --background-activated: #00995d;
 }
 
 .icone-voltar {
@@ -22,11 +23,15 @@ ion-toolbar {
   font-weight: bold;
 }
 
+.menu-botao{
+  color:white;
+}
 
 //BARRA DE SELEÇÃO ANTRE ANIVERSÁRIOS E UNIMED
 .barra {
   --background: #006b3e;
   height: 48px;
+  width: 100%;
 }
 
 .botao-menu {
@@ -34,16 +39,18 @@ ion-toolbar {
   --color-selected: white;
   --background-checked:#006b3e;
   --color-checked:white;
-  --indicator-color: #BED700;
+  border-radius: 0;
+  border:0px;
   border-bottom:10px;
   width: 50%;
 }
 
 .segment-button-checked{
-    border-bottom: 3px solid;
+    border-bottom: 2.5px solid;
     border-color: #BED700;
 }
 
 .titulo-botao-menu{
     font-size: 11px;
+    margin-bottom:0px;
 }
