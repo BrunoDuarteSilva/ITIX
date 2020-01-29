@@ -41,13 +41,9 @@
 
     <!--LISTA DE ANIVERSARIANTES -->
     <ion-list>
-      <p class="aniversariante">José da Silva Teixeira</p>
-      <p class="aniversariante">Luiz Carlos Garcia</p>
-      <p class="aniversariante">Maria Aparecida Vieira Couto</p>
-      <p class="aniversariante">Roberto Almeida Spoletti</p>
-      <p class="aniversariante">Ana Maria Cerqueira</p>
-      <p class="aniversariante">Pedro Arthur Nogueira Rispini</p>
-      <p class="aniversariante">Francine Fonseca Pedrini</p>
+      <div *ngFor="let aniv of aniversariantes">
+        <p class="aniversariante">{{aniv.nome}}</p>
+      </div>
     </ion-list>
 
   </ion-card>
